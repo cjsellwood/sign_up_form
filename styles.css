@@ -1,16 +1,61 @@
-* {
+body * {
   font-family: "Nunito", sans-serif;
+}
+
+body { 
+  background-color: rgb(236, 238, 241);
 }
 
 header {
   width: 100vw;
   display: flex;
-  
+  flex-direction: row-reverse;
+  height: 60px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+}
+
+.previous-user-container {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.previous-user-container p {
+  color: rgb(80, 80, 80);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.previous-user-container a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+  font-size: 12px;
 }
 
 
+.sign-in-button {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 119, 197);
+  font-size: 13.5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  height: 34px;
+  margin-left: 10px;
+}
 
-
+.sign-in-button > svg {
+  margin-right: 5px;
+}
 
 
 
