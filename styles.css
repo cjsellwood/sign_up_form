@@ -1,0 +1,38 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.privacy-button {
+  position: fixed;
+  bottom: 0;
+  right: 5vw;
+  padding: 10px;
+  background-color: rgb(107, 108, 114);
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
