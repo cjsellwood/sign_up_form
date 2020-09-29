@@ -2,7 +2,7 @@ body * {
   font-family: "Nunito", sans-serif;
 }
 
-body { 
+body {
   background-color: rgb(236, 238, 241);
 }
 
@@ -38,7 +38,6 @@ header {
   font-size: 12px;
 }
 
-
 .sign-in-button {
   padding: 0 20px;
   text-decoration: none;
@@ -57,12 +56,68 @@ header {
   margin-right: 5px;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
 
+.logo-container a {
+  background-image: url(images/intuit.png);
+  width: 118px;
+  height: 36px;
+  cursor: pointer;
+}
 
+.other-products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
+.other-products-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.other-products-icon {
+  margin-right: 4px;
+  height: 24px;
+}
 
+.other-products-icon img {
+  width: 23px;
+  height: 23px;
+}
 
+.other-products-text {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+#turbotax {
+  padding-bottom: 5px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form-content {
+  background-color: white;
+  border: 1px solid rgb(199, 199, 199);
+  width: 380px;
+  height: 736px;
+  padding: 30px;
+  box-sizing: border-box;
+}
 
 
 

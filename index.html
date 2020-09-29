@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <title>Sign Up Form</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -14,17 +17,107 @@
           <a href="#">I forgot my User ID or Password</a>
         </div>
         <button class="sign-in-button">
-          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"/>
-            <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-lock-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"
+            />
           </svg>
           Sign In
         </button>
       </div>
     </header>
-
-    <button class="privacy-button">
-      Privacy Settings
-    </button>
+    <section class="logo-container">
+      <a href="#"></a>
+    </section>
+    <section class="other-products-container">
+      <ul class="other-products-list">
+        <li class="other-products-icon"><img src="images/mint-logo.svg" /></li>
+        <li class="other-products-text"><img src="images/mint.svg" /></li>
+        <li class="other-products-icon">
+          <img id="qb-logo" src="images/qb-logo.svg" />
+        </li>
+        <li class="other-products-text"><img src="images/qb.svg" /></li>
+        <li class="other-products-icon">
+          <img src="images/turbotax-logo.svg" />
+        </li>
+        <li class="other-products-text">
+          <img id="turbotax" src="images/turbotax.svg" />
+        </li>
+      </ul>
+    </section>
+    <section class="form-container">
+      <div class="form-content">
+        <h2>Create and Intuit account</h2>
+        <div>
+          <p>One account for everything Intuit, including Mint.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <form>
+          <label for="email">Email Address</label>
+          <input type="email" required name="email" />
+          <label for="phone">Phone (recommended)</label>
+          <input type="number" name="phone" />
+          <p>Standard call, messaging or data rates may apply</p>
+          <label for="password">Password</label>
+          <input type="password" name="password" />
+          <button type="submit">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-lock-fill"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"
+              />
+            </svg>
+            Create Account
+          </button>
+        </form>
+        <p>
+          By clicking Create account, you agree to our <a href="#">Terms</a>and
+          have read and acknowledge out <a href="#">Privacy Statement.</a>
+        </p>
+        <section>
+          <p>
+            Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>and
+            <a href="#">Terms of Use.</a>
+          </p>
+        </section>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <ul>
+          <a href="#">Legal</a>
+          <a href="#">Privacy</a>
+          <a href="#">Security</a>
+        </ul>
+      </div>
+      <p>
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
+    <button class="privacy-button">Privacy Settings</button>
   </body>
 </html>
