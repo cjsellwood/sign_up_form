@@ -50,6 +50,7 @@ header {
   align-items: center;
   height: 34px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .sign-in-button > svg {
@@ -103,26 +104,192 @@ header {
   padding-bottom: 5px;
 }
 
+/* Main form */
 .form-container {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  position: relative;
 }
 
 .form-content {
   background-color: white;
   border: 1px solid rgb(199, 199, 199);
   width: 380px;
-  height: 736px;
+  height: 661px;
   padding: 30px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(76, 76, 76);
 }
 
+.form-content h2 {
+  font-size: 24px;
+}
 
+.account-details {
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
 
+.account-details a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+}
 
+.account-details > a {
+  display: flex;
+  justify-content: center;
+}
 
+.sign-up-form {
+  width: 100%;
+}
+
+.sign-up-form input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(193, 197, 200);
+  font-size: 16.8px;
+  line-height: 22px;
+  height: 34px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 2px;
+}
+
+.sign-up-form input:focus {
+  border: 1px solid rgba(82, 169, 236, 0.767);
+  box-shadow: 2px 0 6px rgba(116, 204, 255, 0.623), -2px 0 6px rgba(116, 204, 255, 0.623),
+    0 2px 6px rgba(116, 204, 255, 0.623), 0 -2px 6px rgba(116, 204, 255, 0.623);
+}
+
+.sign-up-form label {
+  color: rgb(64, 64, 64);
+  padding-bottom: 6px;
+  font-size: 14px;
+  line-height: 25px;
+  width: 100%;
+  display: block;
+}
+
+.sign-up-form span {
+  height: 20px;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  width: 100%;
+  display: block;
+  font-size: 10px;
+  line-height: 15px;
+  color: rgb(68, 68, 68);
+}
+
+.password-container {
+  display: flex;
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px;
+}
+
+.password-container svg {
+  color: rgb(206, 205, 205);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 5px;
+  margin: 3px;
+  transform: scaleX(-1)
+}
+
+.create-account-button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 119, 197);
+  font-size: 15.75px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.create-account-button > svg {
+  margin-right: 5px;
+}
+
+.disclaimer-text {
+  text-align: center;
+  padding: 0 24px;
+  color: rgb(117, 117, 117);
+  line-height: 18px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.disclaimer-text a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+}
+
+.captcha {
+  width: 378px;
+  background-color: rgb(236, 238, 241);
+  position: absolute;
+  bottom: 1px;
+}
+
+.captcha p {
+  padding: 16px;
+  color: rgb(141, 144, 150);
+  line-height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.captcha a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  width: 680px;
+  color: rgb(80, 80, 80);
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
 
 .privacy-button {
   position: fixed;
